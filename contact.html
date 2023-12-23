@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: lightgrey;
+        }
+        form {
+            padding: 10px;
+            background-color: darkgray;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: darkcyan;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #d11414;
+            color: white;
+            border: 1px solid #d11414;
+            transition: 0.3s;
+        }
+
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <h1>ZEPH TECH AND SOLUTIONS</h1>
+        <nav>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a class="active" href="contact.html">CONTACT</a></li>
+            <li><a href="customers.html">CUSTOMERS</a></li>
+        </nav>
+        <i class="fa-solid fa-bars hamburger-icon"></i>
+    </div>
+</header>
+<!-- contact-->
+<div id="contact" class="about-content">
+    <h2 style="align-content: center" align="center">CONTACT</h2>
+    <p style="align-content: center" align="center" >Feel free to reach out to us for customized websites using the form below:</p>
+    <form action="#" method="post">
+        <label for="customerName">Your Name:</label>
+        <input type="text" id="customerName" name="customerName" required>
+
+        <label for="contactMethod">Preferred Contact Method:</label>
+        <select id="contactMethod" name="contactMethod">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+        </select>
+
+        <label>Interested Services:</label><br>
+        <input type="checkbox" id="serviceWeb" name="serviceWeb" value="web">
+        <label for="serviceWeb">Website Development</label>
+        <input type="checkbox" id="serviceApp" name="serviceApp" value="app">
+        <label for="serviceApp">Mobile App Development</label><br>
+
+        <label>How did you hear about us?</label><br>
+        <input type="radio" id="hearOnline" name="hearAbout" value="online">
+        <label for="hearOnline">Online</label>
+        <input type="radio" id="hearWordOfMouth" name="hearAbout" value="wordOfMouth">
+        <label for="hearWordOfMouth">Word of Mouth</label><br><br>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Your message goes here..." required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+<footer style="align-content: center" align="center">
+    <!-- Copyright -->
+    <div class="downfooter">
+        <p>Copyright © </p>
+        <a href="https://github.com/Zeph073/" target="_blank"><img src="images/github.png" width="50px" height="50px"></a>
+        <img src="images/Twitter.png" width="50px" height="50px">
+        <img src="images/fb.png" width="50px" height="50px">
+        <img src="images/Tiktok.png" width="50px" height="50px"> <br><br>
+    </div>
+</footer>
+</body>
+</html>
