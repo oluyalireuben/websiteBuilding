@@ -12,7 +12,7 @@
 ## Usage
 
 -Clone the repository and open it in any HTML Editor.
-https://github.com/Zeph073/my_website_one
+https://github.com/oluyalireuben/websiteBuilding
 
 Run the website using your favourite browser
 
