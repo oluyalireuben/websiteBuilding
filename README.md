@@ -24,5 +24,5 @@ Feel free to contribute to the development this website by opening issues and pu
 ## Contact Us
 If you have any questions concerning website building, please contact us at zephzephan073@gmail.com
 
-Collaborated with my colleague to its deployment @Oluyalireuben
+Collaborated with my colleague to its deployment @ oluyalireuben1@gmail.com
 
