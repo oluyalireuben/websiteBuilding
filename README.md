@@ -22,7 +22,5 @@ Run the website using your favourite browser
 Feel free to contribute to the development this website by opening issues and pull requests.
 
 ## Contact Us
-If you have any questions concerning website building, please contact us at zephzephan073@gmail.com
-
-Collaborated with my colleague to its deployment @ oluyalireuben1@gmail.com
+If you have any questions concerning website building, please contact us
 
